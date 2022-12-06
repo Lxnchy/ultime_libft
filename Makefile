@@ -6,7 +6,7 @@
 #    By: jehubert <jehubert@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/10 16:07:29 by jehubert          #+#    #+#              #
-#    Updated: 2022/12/06 15:49:00 by jehubert         ###   ########.fr        #
+#    Updated: 2022/12/06 17:53:25 by jehubert         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,9 +22,7 @@ get_next_line_utils.c ft_printf.c ft_printf_utils.c
 
 SRCS = srcs/$(SRC)
 
-HEAD = includes/
-
-OBJS = objs/
+OBJS = objs
 
 CFLAGS	= -Wall -Wextra -Werror
 
