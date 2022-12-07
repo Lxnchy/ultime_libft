@@ -24,6 +24,16 @@
 
 # endif
 
+# ifdef __APPLE__
+
+#  define NPTR "0x0"
+
+# elif
+
+#  define NPTR "(nil)"
+
+# endif
+
 typedef struct s_list
 {
 	void			*content;

@@ -33,7 +33,7 @@ int	hexmaster(unsigned long long nb, int size, int isptr)
 
 	i = 0;
 	if (isptr && nb == 0)
-		return (ftputstr("(nil)"));
+		return (ftputstr(NPTR));
 	if (isptr)
 		i = ftputstr("0x");
 	putnbrhex(nb, &i, size);
