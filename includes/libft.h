@@ -6,7 +6,7 @@
 /*   By: jehubert <jehubert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 14:24:27 by jehubert          #+#    #+#             */
-/*   Updated: 2022/12/06 15:36:57 by jehubert         ###   ########.fr       */
+/*   Updated: 2022/12/09 09:36:28 by jehubert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,5 +102,6 @@ int			ftputstr(char *str);
 int			ftputchar(char c);
 int			uintmaster(unsigned int nb);
 void		put_uint(unsigned int nb, int *i);
+void		ft_cleangnl(int fd);
 
 #endif
