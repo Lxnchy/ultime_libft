@@ -6,7 +6,7 @@
 /*   By: jehubert <jehubert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 14:24:27 by jehubert          #+#    #+#             */
-/*   Updated: 2022/12/09 09:36:28 by jehubert         ###   ########.fr       */
+/*   Updated: 2022/12/09 19:33:13 by jehubert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 
 # ifndef BUFFER_SIZE
 
-#  define BUFFER_SIZE 40
+#  define BUFFER_SIZE 400
 
 # endif
 
@@ -28,7 +28,7 @@
 
 #  define NPTR "0x0"
 
-# elif
+# else
 
 #  define NPTR "(nil)"
 
